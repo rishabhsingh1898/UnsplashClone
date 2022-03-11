@@ -1,4 +1,4 @@
-package com.rishabh.unsplashclone
+package com.rishabh.unsplashclone.data
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
