@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Learning/UnsplashClone/app/src/main/res/drawable/gradient.xml" value="0.125" />
         <entry key="..\:/Learning/UnsplashClone/app/src/main/res/layout/activity_main.xml" value="0.1921875" />
+        <entry key="..\:/Learning/UnsplashClone/app/src/main/res/layout/fragment_details.xml" value="0.13385416666666666" />
         <entry key="..\:/Learning/UnsplashClone/app/src/main/res/layout/fragment_gallery.xml" value="0.1921875" />
         <entry key="..\:/Learning/UnsplashClone/app/src/main/res/layout/item_unsplash_photo.xml" value="0.18888888888888888" />
         <entry key="..\:/Learning/UnsplashClone/app/src/main/res/menu/menu_gallery.xml" value="0.18" />
