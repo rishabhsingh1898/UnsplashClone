@@ -10,10 +10,11 @@ import javax.inject.Inject
 @HiltViewModel
 class GalleryViewModel @Inject constructor(
     private val repository: UnsplashRepository,
+    state:SavedStateHandle
 ) :
     ViewModel() {
 
-    private val currentQuery = MutableLiveData(DEFAULT_QUERY)
+    private val currentQuery = state.getLiveData(CURRENT_QUERY, DEFAULT_QUERY)
 
     val photos = currentQuery.switchMap {
         repository.getSearchResult(it).cachedIn(viewModelScope)
